@@ -29,4 +29,4 @@ ggplot(data, aes(x = Day, y = Height_cm)) +
     plot.title = element_text(hjust = 0.5) # center the title
   )
 
-ggsave("Trial1.png", dpi = 300, type = "cairo-png") #cairo-png: anti aliasing, better rendering, high quality
+ggsave("Trial1.png", bg = "white", dpi = 300, type = "cairo-png") #cairo-png: anti aliasing, better rendering, high quality
